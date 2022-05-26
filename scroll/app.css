@@ -1,0 +1,54 @@
+html,body{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-color:#B7CE9F;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.passos{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed; /*  este bloco não se mexe independente do movimento da navegação */
+  z-index:2;
+}
+
+.passos > div{
+  width: 100%;
+  height: 100%;
+  position: absolute;  /* coloca as o conteúdo dentro das divs que são passos empilhadas no mesmo lugar, pois absolute repete posicionamento do pai */
+  display: flex;
+  display: none; 
+  align-items: center;
+}
+
+.passos > div.passo-ativo{
+  display: flex; 
+}
+
+.passos > div > *{
+  display: block;
+}
+
+.passos > div > img{
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.gatilhos{
+  position: absolute; 
+}
+.gatilhos > div{
+  border:4px;
+  height: 100vh; /*  100% da altura do html */
+  width: 100vw; /*  100% da largura do html */
+  z-index:100;
+  padding: 10%;
+}
