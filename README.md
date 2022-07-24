@@ -2,8 +2,7 @@
 
 🎲**Sobre o projeto** 🗺
 
-##### Dados: 
-[Global Data Barometer](https://globaldatabarometer.org/)
+##### Dados: *[Global Data Barometer](https://globaldatabarometer.org/)*
 
 O projeto traz uma recorte dos resultados de um estudo multimendional sobre como  109 países estão lidando com dados que são de interesse público. Parâmetros e temas como acessibilidade, governança e transparência foram utilizados pelo [estudo](https://globaldatabarometer.org/the-global-data-barometer-report-first-edition/).
 
